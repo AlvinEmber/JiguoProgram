@@ -1,3 +1,7 @@
+.container {
+    width: 100%;
+}
+
 .navbar {
     border-top: none;
     margin-top: 10px;
@@ -26,7 +30,7 @@
 
 .navbar-default .navbar-form {
     margin-top: 12px;
-    margin-left: 265px;
+    margin-left: 230px;
 }
 
 .navbar-form .form-control {
@@ -70,6 +74,25 @@
     margin: 35px 180px;
     position: relative;
     /* background-color: pink; */
+}
+
+.botSection .botSection_contain .backToTop {
+    position: absolute;
+    right: 0px;
+    bottom: 100px;
+    width: 50px;
+    height: 30px;
+    background-color: #ccc;
+    border: none;
+}
+
+.botSection .botSection_contain .backToTop>img {
+    background-repeat: no-repeat;
+    width: 35px;
+    margin-top: 0px;
+    margin-left: 2px;
+    border: none;
+    height: 18px;
 }
 
 .botSection .botSection_contain .contain_img_code {
@@ -126,3 +149,5 @@
     color: #ccc;
     text-decoration: none;
 }
+
+

@@ -1,0 +1,114 @@
+.regist {
+    width: 100%;
+    height: 630px;
+    /* background-color: #F7F7F7; */
+}
+
+.regist .regist_contain {
+    position: relative;
+    width: 900px;
+    height: 600px;
+    background-color: #fff;
+    margin: 30px auto;
+    border: 2px solid rgb(238, 238, 238);
+    border-radius: 20px;
+}
+
+.regist .regist_contain form {
+    width: 300px;
+    height: 600px;
+    margin: 100px auto;
+}
+
+.regist .regist_contain .form-group {
+    width: 300px;
+    margin-top: 20px;
+}
+
+.regist .regist_contain .form-group>img {
+    width: 100px;
+    height: 35px;
+    margin-left: 30px;
+}
+
+.regist .regist_contain .form-group>.yanzhengma {
+    width: 100px;
+    height: 35px;
+    margin-left: 30px;
+    border-color: rgb(235, 235, 235);
+    background-color: #F7F7F7;
+    border-radius: 6px;
+    box-shadow: none;
+}
+
+.regist .regist_contain .form-group .form-control {
+    background-color: #F7F7F7;
+    border-radius: 6px;
+    box-shadow: none;
+    border-color: rgb(235, 235, 235);
+    font-size: 14px;
+    /* float: left; */
+}
+
+.regist .regist_contain .regist_btn {
+    background-color: #FE5341;
+    width: 300px;
+    border-radius: 6px;
+    box-shadow: none;
+    border:none;
+    font-size: 14px;
+    margin-top: 5px;
+    height: 34px;
+    padding: 6px 12px;
+    color: white;
+}
+
+/* 判断框 */
+
+.regist .regist_contain .checkOut {
+    position: absolute;
+    right: 150px;
+    bottom: 97px;
+    width: 200px;
+    height: 400px;
+}
+
+.imess {
+    /* text-align: left; */
+    width: 260px;
+    float: right;
+    font-weight: 500;
+}
+
+.regist .regist_contain li {
+    /* position: absolute;
+    right: 200px;
+    bottom: 200px; */
+    width: 310px;
+    height: 55px;
+    line-height: 55px;
+    list-style: none;
+}
+.regist .regist_contain i {
+    width: 30px;
+    line-height: 55px;
+    height: 20px;
+    margin-left: 20px;
+    /* float: left; */
+}
+.wrong {
+    color: red;
+}
+.right {
+    color: green;
+}
+.wrong-icon,.right-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    background: url(../../img/icon/wrong.png) no-repeat;
+}
+.right-icon {
+    background-image: url(../../img/icon/right.png);
+}
