@@ -1,0 +1,7 @@
+.nav_>ul>li:nth-child(1)>a {
+    color: rgb(170, 170, 170);
+}
+
+.nav_>ul>li:nth-child(2)>a {
+    color: rgb(22, 21, 21);
+}

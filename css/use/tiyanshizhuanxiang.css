@@ -1,0 +1,15 @@
+div>span:nth-child(2)>a {
+    color: #ccc;
+}
+
+div>span:nth-child(3)>a {
+    color: #fc5334;
+}
+
+div>span:nth-child(2) {
+    border: 0;
+}
+
+div>span:nth-child(3) {
+    border-bottom: 3px solid #fc5334;
+}
