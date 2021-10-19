@@ -6,10 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/index/bootstrap.css">
-    <script src="./js/index/bootstrap.min.js"></script>
-    <script src="./js/jQuery.min.js"></script>
-    <link rel="stylesheet" href="./css/index/index.css">
+    <script src="../js/jQuery.min.js"></script>
+    <link rel="stylesheet" href="../css/index/bootstrap.css">
+    <script src="../js/index/bootstrap.min.js"></script>
+    <script src="../js/play/JQuers.js"></script>
+    <link rel="stylesheet" href="../css/index/index.css">
+    <link rel="stylesheet" href="../css/play/Coldplay.css">
+    <!-- <script src="../js/play/doT.min.js"></script> -->
+    <!-- <script src='../js/jQuery.min.js'></script> -->
 </head>
 
 <body>
@@ -32,8 +36,8 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="#">首页 <span class="sr-only">(current)</span></a></li>
-                    <li><a href="./play/Coldplay.html">酷玩</a></li>
-                    <li><a href="./guid/guid.html">导购</a></li>
+                    <li><a href="#">酷玩</a></li>
+                    <li><a href="#">导购</a></li>
                     <li><a href="#">使用</a></li>
                     <li><a href="#">报告</a></li>
                 </ul>
@@ -51,82 +55,30 @@
     </nav>
 
     <!-- 页面主体 -->
-    <!-- 轮播图部分 -->
-    <script src="./js/index/animate.js"></script>
-    <script src="./js/index/index.js"></script>
-    <link rel="stylesheet" href="./css/index/slideshow.css">
-    <section class="slideshow">
-        <ul class="slideshow_box">
-            <li><img src="./img/img/slide01.jpg" alt=""></li>
-            <li><img src="./img/img/slide02.jpg" alt=""></li>
-            <li><img src="./img/img/slide03.jpg" alt=""></li>
-            <li><img src="./img/img/slide04.jpg" alt=""></li>
-            <li><img src="./img/img/slide05.jpg" alt=""></li>
-            <li><img src="./img/img/slide06.jpg" alt=""></li>
-            <li><img src="./img/img/slide07.jpg" alt=""></li>
-        </ul>
-        <!-- 左侧按钮 -->
-        <a href="javascript:;" id="leftbtn" class="leftbtn"></a>
-        <!-- 右侧按钮 -->
-        <a href="javascript:;" id="rightbtn" class="rightbtn"></a>
-        <!-- 小圆圈 -->
-        <ol class="circle"></ol>
-    </section>
-
-    <!-- 图文列表滑块部分 -->
-    <link rel="stylesheet" href="./css/index/picTextList.css">
-    <div style="width: 100%; height: 600px;float: left;">
-        <div class="bodyCon08">
-            <!--列表-->
-            <div class="students">
-                <h3 class="remenshiyong">热门试用</h3>
-                <div id="four_flash">
-                    <div class="flashBg">
-                        <ul class="mobile">
-                            <li>
-                                <img src="./img/img/hot1.jpg" />
-                                <dd>标题标题标题标题标题</dd>
-                                <p>摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要</p>
-                                <a href=""></a>
-                            </li>
-                            <li>
-                                <img src="./img/img/hot2.jpg" />
-                                <dd>标题标题标题标题标题</dd>
-                                <p>摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要</p>
-                                <a href=""></a>
-                            </li>
-                            <li>
-                                <img src="./img/img/hot3.jpg" />
-                                <dd>标题标题标题标题标题</dd>
-                                <p>摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要</p>
-                                <a href=""></a>
-                            </li>
-                            <li>
-                                <img src="./img/img/hot4.jpg" />
-                                <dd>标题标题标题标题标题</dd>
-                                <p>摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要</p>
-                                <a href=""></a>
-                            </li>
-                            <li>
-                                <img src="./img/img/hot5.jpg" />
-                                <dd>标题标题标题标题标题</dd>
-                                <p>摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要</p>
-                                <a href=""></a>
-                            </li>
-                            <li>
-                                <img src="./img/img/hot6.jpg" />
-                                <dd>标题标题标题标题标题</dd>
-                                <p>摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要</p>
-                                <a href=""></a>
-                            </li>
-
-                        </ul>
-                    </div>
-                    <div class="but_left"><img src="./img/icon/prev.png" /></div>
-                    <div class="but_right"><img src="./img/icon/next.png" /></div>
-                </div>
-                <script src="./js/index/student.js"></script>
-            </div>
+    <div class="main">
+        <!-- 标题 -->
+        <div class="bt"><a href="">发现酷玩</a></div>
+        <!-- 分类 -->
+        <div class="fl">
+            <ul>
+                <li class="li_u"><a class="li_a" href="../play/Coldplay_category.html">最新</a></li>
+                <li><a href="../play/Coldplay-hottest.html">最热</a></li>
+                <li><a href="">品类</a></li>
+            </ul>
+        </div>
+        <!-- 主页内容 -->
+        <div class="main_">
+            <ul class="ul_">
+                <li>
+                    <img src="../img/img/bg1.jpg" alt="">
+                    <div class="ziti">
+                        <div class="text_">你好世界你好世界你好世界你好世界你好世界你好世界你好世界</div>
+                        <div class="span_">
+                            <span class="img_1"><img src="../img/icon/xin.png" alt=""></span><span class="img_2"><img
+                                    src="../img/icon/reply.png" alt=""></span>
+                        </div>
+                </li>
+            </ul>
         </div>
     </div>
 
@@ -136,9 +88,9 @@
         <!-- 页尾主体内容 -->
         <div class="botSection_contain">
             <!-- 左侧二维码 -->
-            <img class="contain_img_code" src="./img/img/code.png" alt="">
+            <img class="contain_img_code" src="../img/img/code.png" alt="">
             <ul class="contain_text firstbox">
-                <li><img class="text_firstbox_img" src="img/img/logoImg.jpg"></li>
+                <li><img class="text_firstbox_img" src="../img/img/logoImg.jpg"></li>
                 <li>全球酷玩试用导购平台酷·新奇·好玩·品质</li>
                 <li style="margin-top: 5px;">微信添加“JguoJguo”获取我们的服务。</li>
             </ul>
@@ -186,10 +138,55 @@
                 <li style="width: 180px;">商务合作：BD@jiguo.com</li>
                 <li style="width: 180px;">CEO邮箱：CEO@jiguo.com</li>
             </ul>
-            <i class="copyright">&copy; 2016 极果版权所有</i>
         </div>
-
+        <i class="copyright">&copy; 2016 极果版权所有</i>
     </section>
 </body>
+<script>
+    var ajax_ = new XMLHttpRequest() || new ActiveXObject();
+    ajax_.open('get', 'http://192.168.1.29:3000/guid/new', true);
+    ajax_.send();
+    ajax_.onreadystatechange = function () {
+        if (ajax_.readyState == 4) {
+            if (ajax_.status == 200) {
+                var data = JSON.parse(ajax_.responseText);
+                console.log(data);
+                show(data)
+
+            }
+        }
+    }
+
+
+
+    // 展示方法 show()
+    function show(val) {
+        var str = '';
+        for (var i of val) {
+            var img_ = i.img.replace(/192.168.1.64/g, '192.168.1.29');
+            str += '<li>';
+            str += '<img src="' + img_ + '"+ alt="">';
+            str += '<div class="ziti">';
+            str += '<div class="text_">';
+            str += i.text
+            str += '</div>'
+            str += '<div class="span_1">';
+            str += '<span class="img_1">'
+            str += '<img src="../img/icon/xin.png" alt="">'
+            str+='&nbsp;'
+            str += i.like
+            str += '</span>'
+            str += '<span class="img_2">'
+            str += '<img src="../img/icon/reply.png" alt="">'
+            str+='&nbsp;'
+            str += i.words
+            str += '</span>'
+            str += '</div>'
+            str += '</li>'
+        }
+        var ul = document.getElementsByClassName('ul_')[0].innerHTML = str;
+
+    }
+</script>
 
 </html>

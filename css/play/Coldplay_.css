@@ -1,0 +1,158 @@
+
+/* 主题上面导航部分 */
+.main-nav{
+    width: 100%;
+    height: 100px;
+}
+.main-nav>p{
+    padding-top: 10px;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+}
+.main-nav>ul{
+    list-style: none;
+    margin-left: 40%;
+}
+.main-nav>ul>li{
+    float: left;
+    width: 110px;
+}
+.main-nav>ul>li>a{
+    color: #777777;
+}
+/* 页面主题 */
+.main{
+    width: 100%;
+    height: 1750px;
+    margin: 0 auto;
+    padding: 0 auto;
+    overflow: hidden;
+    background-color: #f7f7f7;
+}
+.bj{
+    margin-top: 50px;
+    margin-left: 200px;
+    background-color: white;
+    width: 1000px;
+}
+.s-huo{
+    
+    height: 600px;
+    overflow: hidden
+}
+.sh{
+    margin-top: 20px;
+    /* margin-left: 20px; */
+    width: 50px;
+    text-align: right;
+    height: 20px;
+    line-height: 20px;
+    border-left: 5px solid red;
+}
+.ul{
+    margin-top: 30px;
+    width: 100%;
+    height: 300px;
+    list-style: none;
+}
+.ul>li{
+    width: 150px;
+    height: 150px;
+    float: left;
+    text-align: center;
+    color:#c4bebe ;
+}
+
+.tex{
+    list-style: none;
+}
+.tex>li{
+    float: left;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    color: #c4bebe;
+}
+/* 个人护理 */
+.hl{
+    height: 300px;
+    overflow: hidden
+    
+}
+.grhl{
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+    border-left: 5px solid red;
+}
+.ul_{
+    margin-top: 30px;
+    width: 100%;
+    height: 100px;
+    list-style: none;
+}
+.ul_>li{
+    width: 150px;
+    height: 50px;
+    float: left;
+    text-align: center;
+    color:#c4bebe ;
+}
+.gr{
+    list-style: none;
+}
+.gr>li{
+    float: left;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    color: #c4bebe;
+}
+/* 健康 */
+.jk{
+    height: 300px;
+    overflow: hidden
+}
+.jian{
+    margin-top: 20px;
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+    border-left: 5px solid red;
+}
+.ul_1{
+    margin-top: 30px;
+    width: 100%;
+    height: 100px;
+    list-style: none;
+}
+.ul_1>li{
+    width: 150px;
+    height: 50px;
+    float: left;
+    text-align: center;
+    color:#c4bebe ;
+}
+.kang{
+    list-style: none;
+}
+.kang>li{
+    float: left;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    color: #c4bebe;
+}
+/* 智能穿戴 */
+.zncd{
+    margin-top: 20px;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+    border-left: 5px solid red;
+}
