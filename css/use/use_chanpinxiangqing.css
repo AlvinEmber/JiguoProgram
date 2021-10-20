@@ -223,7 +223,7 @@ body {
     background-position-x: -250px;
     position: relative;
     text-align: right;
-    animation: flag 8s steps(60, end);
+    animation: flag 1s;
 }
 
 .main_header_box {
@@ -279,9 +279,10 @@ body {
 
 @keyframes flag {
     0% {
-        left: 100%;
+        left: 10%;
+        opacity: 0;
     }
-    25% {
+    /* 25% {
         left: 75%;
     }
     50% {
@@ -289,8 +290,9 @@ body {
     }
     75% {
         left: 25%;
-    }
+    } */
     100% {
         left: 0%;
+        opacity: 1;
     }
 }
