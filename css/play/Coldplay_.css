@@ -17,10 +17,17 @@
 .main-nav>ul>li{
     float: left;
     width: 110px;
+    height: 30px;
+    margin-top: 15px;
+    text-align: center;
 }
 .main-nav>ul>li>a{
     color: #777777;
 }
+.li-{
+    border-bottom: 1px solid red;
+}
+#a-{color: red;}
 /* 页面主题 */
 .main{
     width: 100%;

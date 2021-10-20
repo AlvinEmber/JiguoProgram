@@ -118,3 +118,11 @@ window.addEventListener('load', function () {
         rightbtn.click();
     }, 6000)
 })
+
+$(function () {
+    $('.backToTop').on('click', function () {
+        $('body, html').stop().animate({
+            scrollTop: 0
+        })
+    })
+})

@@ -6,49 +6,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="./js/jQuery.min.js"></script>
     <link rel="stylesheet" href="./css/index/bootstrap.css">
     <script src="./js/index/bootstrap.min.js"></script>
-    <script src="./js/jQuery.min.js"></script>
     <link rel="stylesheet" href="./css/index/index.css">
+    <script src="./js/body.js"></script>
 </head>
 
 <body>
     <!-- 顶部导航栏 使用bootstrap -->
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <div class="navbar-brand"></div>
-            </div>
+    <div class="container">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="navbar-brand"></div>
+                </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">首页 <span class="sr-only">(current)</span></a></li>
-                    <li><a href="./play/Coldplay.html">酷玩</a></li>
-                    <li><a href="./guid/guid.html">导购</a></li>
-                    <li><a href="#">使用</a></li>
-                    <li><a href="#">报告</a></li>
-                </ul>
-                <form class="navbar-form navbar-left">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search">
-                    </div>
-                    <button type="submit" class="btn btn-default"></button>
-                </form>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a class="registbtn" href="#">注册</a></li>
-                </ul>
-            </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
-    </nav>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html">首页 <span class="sr-only">(current)</span></a></li>
+                        <li><a href="./play/Coldplay.html">酷玩</a></li>
+                        <li><a href="./guid/guid.html">导购</a></li>
+                        <li><a href="#">使用</a></li>
+                        <li><a href="#">报告</a></li>
+                    </ul>
+                    <form class="navbar-form navbar-left">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                        <button type="submit" class="btn btn-default"></button>
+                    </form>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a class="registbtn" href="regist.html">注册</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav> <!-- 顶部导航栏的结尾 -->
+    </div>
 
     <!-- 页面主体 -->
     <!-- 轮播图部分 -->
@@ -71,11 +74,11 @@
         <a href="javascript:;" id="rightbtn" class="rightbtn"></a>
         <!-- 小圆圈 -->
         <ol class="circle"></ol>
-    </section>
+    </section> <!-- 轮播图部分的结尾 -->
 
     <!-- 图文列表滑块部分 -->
     <link rel="stylesheet" href="./css/index/picTextList.css">
-    <div style="width: 100%; height: 600px;float: left;">
+    <div style="width: 100%; height: 390px;float: left;">
         <div class="bodyCon08">
             <!--列表-->
             <div class="students">
@@ -89,37 +92,6 @@
                                 <p>摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要</p>
                                 <a href=""></a>
                             </li>
-                            <li>
-                                <img src="./img/img/hot2.jpg" />
-                                <dd>标题标题标题标题标题</dd>
-                                <p>摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要</p>
-                                <a href=""></a>
-                            </li>
-                            <li>
-                                <img src="./img/img/hot3.jpg" />
-                                <dd>标题标题标题标题标题</dd>
-                                <p>摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要</p>
-                                <a href=""></a>
-                            </li>
-                            <li>
-                                <img src="./img/img/hot4.jpg" />
-                                <dd>标题标题标题标题标题</dd>
-                                <p>摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要</p>
-                                <a href=""></a>
-                            </li>
-                            <li>
-                                <img src="./img/img/hot5.jpg" />
-                                <dd>标题标题标题标题标题</dd>
-                                <p>摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要</p>
-                                <a href=""></a>
-                            </li>
-                            <li>
-                                <img src="./img/img/hot6.jpg" />
-                                <dd>标题标题标题标题标题</dd>
-                                <p>摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要</p>
-                                <a href=""></a>
-                            </li>
-
                         </ul>
                     </div>
                     <div class="but_left"><img src="./img/icon/prev.png" /></div>
@@ -129,12 +101,96 @@
             </div>
         </div>
     </div>
+    <script src="./js/index/datashow01.js"></script>
+    <!--图文滑块部分的结尾-->
 
+    <!-- 报告精选部分 -->
+    <link rel="stylesheet" href="./css/index/poster.css">
+    <section class="poster">
+        <div class="poster_contain">
+            <!-- 标题 -->
+            <h3 class="remenshiyong" style="width: 150px;margin-left: 23px;">报告精选</h3>
+            <a href="#" class="lookmore">查看更多<i></i></a>
+            <div class="poster_listBox">
+                <ul class="poster_listBox_list">
+                    <li>
+                        <img src="./img/img/hot1.jpg" />
+                        <h5>标题标题标题标题标题标题标题标题标题标题标题</h5>
+                        <p>名字</p>
+                        <i><img src="./img/icon/zan.png" alt="">3</i>
+                        <i><img src="./img/icon/reply.png" alt="">3</i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <script src="./js/index/datashow02.js"></script>
+    </section>
+    <!-- 报告精选部分的结尾 -->
+
+    <!-- 导购精选部分 -->
+    <link rel="stylesheet" href="./css/index/guider.css">
+    <section class="guider">
+        <div class="guider_contain">
+            <!-- 标题 -->
+            <h3 class="remenshiyong" style="width: 150px;margin-left: 23px;">导购精选</h3>
+            <a href="#" class="lookmore">查看更多<i></i></a>
+            <div class="guider_listBox">
+                <ul class="guider_listBox_list">
+                    <li>
+                        <img src="./img/img/hot1.jpg" />
+                        <h5>标题标题标题标题标题标题标题标题标题标题标题</h5>
+                        <p>名字</p>
+                        <i><img src="./img/icon/xin.png" alt="">3</i>
+                        <i><img src="./img/icon/reply.png" alt="">3</i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <script src="./js/index/datashow03.js"></script>
+    </section>
+    <!--导购精选部分的结尾-->
+
+    <!-- 发现酷玩部分 -->
+    <link rel="stylesheet" href="./css/index/coolWan.css">
+    <section class="coolWan">
+        <div class="coolWan_contain">
+            <!-- 标题 -->
+            <h3 class="remenshiyong" style="width: 150px;margin-left: 23px;">发现酷玩</h3>
+            <a href="#" class="lookmore">查看更多<i></i></a>
+            <div class="coolWan_listBox">
+                <ul class="coolWan_listBox_list">
+                    <li>
+                        <img src="./img/img/hot1.jpg" />
+                        <h5>标题标题标题标题标题标题标题标题标题标题标题</h5>
+                        <p>价格</p>
+                        <i><img src="./img/icon/xin.png" alt="">3</i>
+                        <i><img src="./img/icon/reply.png" alt="">3</i>
+                    </li>
+                </ul>
+            </div>
+            <!-- 点击加载更多按钮 -->
+            <button class="clickMore"><img src="./img/icon/more.png" alt=""> 点击加载更多</button>
+            <div class="coolWan_listBox02">
+                <ul class="coolWan_listBox02_list">
+                    <li>
+                        <img src="./img/img/hot1.jpg" />
+                        <h5>标题标题标题标题标题标题标题标题标题标题标题</h5>
+                        <p>价格</p>
+                        <i><img src="./img/icon/xin.png" alt="">3</i>
+                        <i><img src="./img/icon/reply.png" alt="">3</i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <script src="./js/index/datashow04.js"></script>
+    </section>
+    <!-- 发现酷玩部分的结尾 -->
 
     <!-- 页尾声明部分 -->
     <section class="botSection">
         <!-- 页尾主体内容 -->
         <div class="botSection_contain">
+            <button class="backToTop"><img src="./img/icon/back.png" alt=""></button>
             <!-- 左侧二维码 -->
             <img class="contain_img_code" src="./img/img/code.png" alt="">
             <ul class="contain_text firstbox">
@@ -143,7 +199,7 @@
                 <li style="margin-top: 5px;">微信添加“JguoJguo”获取我们的服务。</li>
             </ul>
             <ul class="contain_text otherbox">
-                <li>免费试用</li>
+                <li class="freeUseBtn">免费试用</li>
                 <li>试用流程</li>
                 <li>如何提高成功率</li>
             </ul>
@@ -180,7 +236,7 @@
                 <li style="width: 160px;">indiegogo 众筹购买攻略</li>
             </ul>
             <ul class="contain_text otherbox">
-                <li>厂商合作</li>
+                <li class="BCBtn">厂商合作</li>
                 <li style="width: 180px;">关于极果</li>
                 <li style="width: 180px;">联系我们</li>
                 <li style="width: 180px;">商务合作：BD@jiguo.com</li>
@@ -189,7 +245,7 @@
             <i class="copyright">&copy; 2016 极果版权所有</i>
         </div>
 
-    </section>
+    </section> <!-- 页尾声明部分的结尾 -->
 </body>
 
 </html>

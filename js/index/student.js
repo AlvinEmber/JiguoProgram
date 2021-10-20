@@ -6,7 +6,7 @@ $("#four_flash .but_right img").click(function () {
     if (_index5 + 5 > len) {
         $("#four_flash .flashBg ul.mobile").stop().append($("ul.mobile").html());
     }
-    $("#four_flash .flashBg ul.mobile").stop().animate({ left: -_index5 * 261 }, 1000);
+    $("#four_flash .flashBg ul.mobile").stop().animate({ left: -_index5 * 271 }, 1000);
 });
 
 
@@ -17,5 +17,5 @@ $("#four_flash .but_left img").click(function () {
         _index5 = 6
     }
     _index5--;
-    $("#four_flash .flashBg ul.mobile").stop().animate({ left: -_index5 * 261 }, 1000);
+    $("#four_flash .flashBg ul.mobile").stop().animate({ left: -_index5 * 271 }, 1000);
 });
