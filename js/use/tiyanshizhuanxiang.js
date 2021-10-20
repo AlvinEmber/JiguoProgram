@@ -39,4 +39,7 @@ $(function() {
             // this.data.list=res
         }
     })
+    $('.bottom_ul_').on('click', 'li', function() {
+        location.href = "./use_chanpinxiangqing.html"
+    })
 })
