@@ -4,6 +4,27 @@
     /* background-color: #F7F7F7; */
 }
 
+.btn-primary {
+    background-color: #FE5341;
+    width: 300px;
+    border-radius: 6px;
+    box-shadow: none;
+    border:none;
+    font-size: 14px;
+    margin-top: 5px;
+    height: 34px;
+    margin-left: -15px;
+    color: white;
+    font-size: 15px;
+}
+
+.modal-content {
+    height: 50px;
+    line-height: 50px;
+    padding: auto 20px;
+    padding-left: 20px;
+}
+
 .regist .regist_contain {
     position: relative;
     width: 900px;

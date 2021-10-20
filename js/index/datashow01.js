@@ -14,7 +14,7 @@ $(function () {
             var str = '';
             for (var i of res) {
                 // console.log(i);
-                str += '<li>';
+                str += '<li class="XQ">';
 
                 str += '<img src="';
                 var imgurl = i.img;
@@ -35,5 +35,8 @@ $(function () {
             $('.mobile').html(str);
             // this.data.list=res
         }
+    })
+    $('.XQ').on('click', function () {
+        location.href = "./use/use_chanpinxiangqing.html"
     })
 })

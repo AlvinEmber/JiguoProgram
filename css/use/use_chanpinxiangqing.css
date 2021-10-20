@@ -223,7 +223,7 @@ body {
     background-position-x: -250px;
     position: relative;
     text-align: right;
-    animation: flag 1s;
+    /* animation: flag 1s; */
 }
 
 .main_header_box {
@@ -231,6 +231,7 @@ body {
     position: absolute;
     left: 845px;
     top: 50px;
+    animation: flag 1.5s;
 }
 
 .main_header_box>p:nth-child(1) {
@@ -267,32 +268,17 @@ body {
 
 /* 动画效果 */
 
-
-/* div {
-    width: 160px;
-    height: 225px;
-    background: url(./springNn2.png) no-repeat;
-    background-size: 9120px 225px;
-    border: 1px solid #999;
-    animation: flag 4s steps(57, end) infinite;
-} */
-
 @keyframes flag {
     0% {
-        left: 10%;
+        /* transform: translateX(20px); */
+        transform: translate(40px,-40px);
         opacity: 0;
     }
-    /* 25% {
-        left: 75%;
-    }
     50% {
-        left: 50%;
+        transform: translate(-5px,5px);
     }
-    75% {
-        left: 25%;
-    } */
     100% {
-        left: 0%;
+        transform: translate(0,0);
         opacity: 1;
     }
 }

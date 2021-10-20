@@ -1,4 +1,4 @@
-$(function() {
+$(function () {
     //post 方式提交只需将  get 改为 post
     $.get({
         //对url地址的json文件发起请求 
@@ -10,7 +10,7 @@ $(function() {
         //请求成功时 执行函数
         //函数的参数 存储响应体
         //自定义形参res中存储的是响应体
-        success: function(res) {
+        success: function (res) {
             // console.log(res);
             // this.data.list=res
             var str = '';
@@ -29,8 +29,8 @@ $(function() {
                 str += '<div class="bt_1">' + i.description + '</div>';
                 str += '<div class="bt_2">' + i.text + '</div>';
                 str += '<div class="bj_1">' + i.price + '</div>';
-                str +='<div class="bj_1">' + i.words + '</div>';
-                str +='<div class="bj_2">' + i.words + '</div>';
+                str += '<div class="bj_1">' + i.words + '</div>';
+                str += '<div class="bj_2">' + i.words + '</div>';
                 str += '<>';
             }
 

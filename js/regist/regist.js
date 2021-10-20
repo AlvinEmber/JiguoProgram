@@ -117,24 +117,20 @@ window.onload = function () {
             return false;
         }
     }
-    var time = 5;
+
+    // 模态框的js
+    var time = 3;
     var timer;
     function timer() {
         if (time == 0) {
-            location.href = 'http://www.baidu.com';
+            location.href = 'index.html';
         } else {
-            div.innerHTML = '注册成功！将在' + time + '秒之后跳转到首页';
+            $(".modal-content").html('注册成功！将在' + time + '秒后跳转至用户登录界面_(:з」∠)_');
             time--;
         }
     }
-    var btn = document.querySelector('.regist_btn');
-    btn.onclick = function () {
-        if (phoneNumber.onblur() && picCode.onblur() && yanzhengCode.onblur() && userId.onblur() && password.onblur() && repassword.onblur()) {
-            // 5秒后自动跳转页面
-            timer();
-            // setInterval(timer, 1000); // 提前调用防止页面空白
-        } else {
-            alert('你还没有通过注册哦');
-        }
-    }
+    $('#myModal').on('show.bs.modal', function (e) {
+        timer();
+        setInterval(timer, 1000); // 提前调用防止页面空白
+    })
 }

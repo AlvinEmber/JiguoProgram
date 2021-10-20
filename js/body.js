@@ -11,4 +11,7 @@ $(function () {
     $(".BCBtnOut").on("click", function () {
         location.href = '../businessCop.html';
     })
+    $('.ul_').on('click', 'li', function () {
+        location.href = "../use/use_chanpinxiangqing.html"
+    })
 })

@@ -1,4 +1,4 @@
-$(function() {
+$(function () {
     //post 方式提交只需将  get 改为 post
     $.get({
         //对url地址的json文件发起请求 
@@ -10,13 +10,13 @@ $(function() {
         //请求成功时 执行函数
         //函数的参数 存储响应体
         //自定义形参res中存储的是响应体
-        success: function(res) {
+        success: function (res) {
             // console.log(res);
             // this.data.list=res
             var str = '';
             for (var i of res) {
                 // console.log(i);
-                str += '<li>';
+                str += '<li id="XQ">';
                 str += '<div>';
                 str += '<img src="';
                 var imgurl = i.img;
@@ -39,7 +39,7 @@ $(function() {
             // this.data.list=res
         }
     })
-    $('.bottom_ul_').on('click', 'li', function() {
+    $('.bottom_ul_').on('click', 'li', function () {
         location.href = "./use_chanpinxiangqing.html"
     })
 })

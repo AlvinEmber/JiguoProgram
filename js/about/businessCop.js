@@ -1,7 +1,7 @@
 $(function () {
     $(".guanyujiguobtn").on("click", function () {
         $("html, body").animate({
-            scrollTop: $(".container").offset().top
+            scrollTop: $(".container-fluid").offset().top
         })
     })
     $(".jiguodashijibtn").on("click", function () {
@@ -16,7 +16,7 @@ $(function () {
     })
     $(".shiyongliuchengbtn").on("click", function () {
         $("html, body").animate({
-            scrollTop: $(".shiyongliucheng").offset().top
+            scrollTop: $(".container-fluid").offset().top
         })
     })
     $(".ruhebtn").on("click", function () {
