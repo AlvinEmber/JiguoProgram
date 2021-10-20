@@ -1,0 +1,19 @@
+div>span:nth-child(3) {
+    color: #fc5334;
+    border-bottom: 3px solid #fc5334;
+}
+
+div>span:nth-child(3)>a {
+    color: #fc5334;
+    text-decoration: none;
+}
+
+div>span:nth-child(2) {
+    color: rgb(170, 170, 170);
+    border-bottom: none;
+}
+
+div>span:nth-child(2)>a {
+    color: rgb(170, 170, 170);
+    text-decoration: none;
+}

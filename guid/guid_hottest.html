@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="../css/guid/guid_hottest.css">
     <link rel="stylesheet" href="../css/index/bootstrap.css">
     <link rel="stylesheet" href="../css/index/bootstrap.css">
-    <script src="../js/index/bootstrap.min.js"></script>
     <script src="../js/jQuery.min.js"></script>
+    <script src="../js/index/bootstrap.min.js"></script>
     <link rel="stylesheet" href="../css/index/index.css">
 </head>
 
@@ -33,11 +33,11 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">首页 <span class="sr-only">(current)</span></a></li>
-                    <li><a href="#">酷玩</a></li>
-                    <li><a href="#">导购</a></li>
-                    <li><a href="#">使用</a></li>
-                    <li><a href="#">报告</a></li>
+                    <li><a href="../index.html">首页 <span class="sr-only">(current)</span></a></li>
+                    <li><a href="../play/Coldplay.html">酷玩</a></li>
+                    <li class="active"><a href="../guid/guid.html">导购</a></li>
+                    <li><a href="../use/mianfeishiyong.html">试用</a></li>
+                    <li><a href="../report/newest.html">报告</a></li>
                 </ul>
                 <form class="navbar-form navbar-left">
                     <div class="form-group">
@@ -46,7 +46,7 @@
                     <button type="submit" class="btn btn-default"></button>
                 </form>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a class="registbtn" href="#">注册</a></li>
+                    <li><a class="registbtn" href="../regist.html">注册</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
@@ -58,7 +58,7 @@
         <div class="dg_">导购清单</div>
         <div class="fl_">
             <ul>
-                <li><a  href="../guid/guid.html">最新</a></li>
+                <li><a href="../guid/guid.html">最新</a></li>
                 <li class="l_1"><a id="a-" href="../guid/guid_hottest.html">最热</a></li>
             </ul>
         </div>
@@ -92,7 +92,7 @@
                 <li style="margin-top: 5px;">微信添加“JguoJguo”获取我们的服务。</li>
             </ul>
             <ul class="contain_text otherbox">
-                <li>免费试用</li>
+                <li class="freeUseBtnOut">免费试用</li>
                 <li>试用流程</li>
                 <li>如何提高成功率</li>
             </ul>
@@ -129,7 +129,7 @@
                 <li style="width: 160px;">indiegogo 众筹购买攻略</li>
             </ul>
             <ul class="contain_text otherbox">
-                <li>厂商合作</li>
+                <li class="BCBtnOut">厂商合作</li>
                 <li style="width: 180px;">关于极果</li>
                 <li style="width: 180px;">联系我们</li>
                 <li style="width: 180px;">商务合作：BD@jiguo.com</li>
@@ -174,12 +174,12 @@
             str += '<div class="span_1">';
             str += '<span class="img_1">'
             str += '<img src="../img/icon/xin.png" alt="">'
-            str+='&nbsp;'
+            str += '&nbsp;'
             str += i.like
             str += '</span>'
             str += '<span class="img_2">'
             str += '<img src="../img/icon/reply.png" alt="">'
-            str+='&nbsp;'
+            str += '&nbsp;'
             str += i.words
             str += '</span>'
             str += '</div>'
